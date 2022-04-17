@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-mitra-soft/static/css/main.c2ca2bd9.css",
+    "main.js": "/test-mitra-soft/static/js/main.507caade.js",
+    "static/media/avatar.jpeg": "/test-mitra-soft/static/media/avatar.a927bb013d33c3c8bef5.jpeg",
+    "index.html": "/test-mitra-soft/index.html",
+    "main.c2ca2bd9.css.map": "/test-mitra-soft/static/css/main.c2ca2bd9.css.map",
+    "main.507caade.js.map": "/test-mitra-soft/static/js/main.507caade.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2ca2bd9.css",
+    "static/js/main.507caade.js"
+  ]
+}
