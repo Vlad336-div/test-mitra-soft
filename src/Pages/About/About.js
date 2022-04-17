@@ -13,7 +13,7 @@ const About = () => {
                     <h1>Рылов Владислав Вадимович</h1>
                     <p>Телефон: <a className="text-decoration-none" href="tel:89517724373">89517724373</a></p>
                     <p>Email: <a className="text-decoration-none" href="mailto:Vlad.Rulov@yandex.ru">Vlad.Rulov@yandex.ru</a></p>
-                    <p>Здравствуйте, я frontend-разработчик со стажем 1 год. Разрабатывал сервис безналичных чаевых, сервис по анилизу статистики маркетплейсов.</p>
+                    <p>Здравствуйте, я frontend-разработчик со стажем 1 год. Разрабатывал сервис безналичных чаевых, сервис по анилизу статистики маркетплейсов. Всегда рад обучаться чему-то новому.</p>
                     <p>Мой стек:</p>
                     <ul>
                         <li>HTML, CSS, Javascript, Typescript</li>
