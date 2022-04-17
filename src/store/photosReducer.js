@@ -4,7 +4,9 @@ const initialState = {
         secondCategory: [],
         thirstCategory: [],
         fourthCategory: []
-    }
+    },
+    idPhoto: '0',
+    activePhoto: {}
 }
 
 export const photosReducer = (state = initialState, action) => {
@@ -12,8 +14,12 @@ export const photosReducer = (state = initialState, action) => {
         case 'GET_PHOTOS':
             return state
         case 'SET_PHOTOS':
-            console.log(action.payload)
             return {...state, photos: action.payload}
+        case 'GET_PHOTO':
+            return {...state, idPhoto: action.payload, activePhoto: {}}
+        case 'SET_PHOTO': {
+            return {...state, activePhoto: action.payload}
+        }
         default:
             return state
     }

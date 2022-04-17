@@ -1,13 +1,16 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 import {Container, Button} from "react-bootstrap"
 import "./style.css"
 
-const Image = ({src}) => {
+const Image = ({src, id}) => {
     return (
         <div className="image-wrap">
             <img src={src}/>
             <Container className="button-wrap">
-                <Button variant="primary">Открыть картинку</Button>
+                <Link to={`image/${id}`}>
+                    <Button variant="primary">Подробнее</Button>
+                </Link>
             </Container>
         </div>
     );
